@@ -10,20 +10,14 @@ if os.path.exists(requirements_file):
 
 setup(
     name='apiverve_currencysymbols',
-    version='1.1.12',
+    version='1.1.13',
     packages=find_packages(),
     include_package_data=True,
     install_requires=install_requires,
     description='Currency Symbols is a simple tool for getting currency symbols. It returns the currency symbol, name, and more of a currency.',
     author='APIVerve',
     author_email='hello@apiverve.com',
-    url='https://apiverve.com',
-    project_urls={
-        'Homepage': 'https://apiverve.com',
-        'Documentation': 'https://docs.apiverve.com/ref/currencysymbols',
-        'Source': 'https://github.com/apiverve/currencysymbols-api',
-        'Bug Tracker': 'https://github.com/apiverve/currencysymbols-api/issues'
-    },
+    url='https://apiverve.com/marketplace/currencysymbols?utm_source=pypi&utm_medium=homepage',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
