@@ -11,8 +11,7 @@ namespace APIVerve.API.CurrencySymbols
     public class CurrencySymbolsQueryOptions
     {
         /// <summary>
-        /// The currency code for which you want to get the symbol (e.g., USD)
-        /// Example: USD
+        /// The currency code for which you want to get the symbol
         /// </summary>
         [JsonProperty("currency")]
         public string Currency { get; set; }
