@@ -48,11 +48,9 @@ namespace APIVerve.API.CurrencySymbols
         public Currency CurrencyIsoCode { get; set; }
 
         [JsonProperty("currency_number")]
-        [JsonConverter(typeof(ParseStringConverter))]
         public long CurrencyNumber { get; set; }
 
         [JsonProperty("currency_mnr_unts")]
-        [JsonConverter(typeof(ParseStringConverter))]
         public long CurrencyMnrUnts { get; set; }
 
         [JsonProperty("currency_symbol")]
