@@ -370,8 +370,9 @@ from apiverve_currencysymbols.apiClient import CurrencysymbolsAPIClient
 
 api = CurrencysymbolsAPIClient("[YOUR_API_KEY]")
 
+query = { "currency": "USD" }
+
 try:
-    query = { "currency": "USD" }
     result = api.execute(query)
     print(result)
 finally:
