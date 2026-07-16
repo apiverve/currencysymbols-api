@@ -25,6 +25,9 @@ namespace APIVerve.API.CurrencySymbols
 
         [JsonProperty("data")]
         public Data Data { get; set; }
+
+        [JsonProperty("premium")]
+        public Premium Premium { get; set; }
     }
 
     public partial class Data
@@ -33,7 +36,7 @@ namespace APIVerve.API.CurrencySymbols
         public CountriesFound[] CountriesFound { get; set; }
 
         [JsonProperty("currency")]
-        public Currency Currency { get; set; }
+        public Currency? Currency { get; set; }
     }
 
     public partial class CountriesFound
@@ -42,19 +45,31 @@ namespace APIVerve.API.CurrencySymbols
         public string CountryName { get; set; }
 
         [JsonProperty("currency_name")]
-        public CurrencyName CurrencyName { get; set; }
+        public CurrencyName? CurrencyName { get; set; }
 
         [JsonProperty("currency_iso_code")]
-        public Currency CurrencyIsoCode { get; set; }
+        public Currency? CurrencyIsoCode { get; set; }
 
         [JsonProperty("currency_number")]
-        public long CurrencyNumber { get; set; }
+        public long? CurrencyNumber { get; set; }
 
         [JsonProperty("currency_mnr_unts")]
-        public long CurrencyMnrUnts { get; set; }
+        public long? CurrencyMnrUnts { get; set; }
 
         [JsonProperty("currency_symbol")]
-        public CurrencySymbol CurrencySymbol { get; set; }
+        public CurrencySymbol? CurrencySymbol { get; set; }
+    }
+
+    public partial class Premium
+    {
+        [JsonProperty("message")]
+        public string Message { get; set; }
+
+        [JsonProperty("upgrade_url")]
+        public Uri UpgradeUrl { get; set; }
+
+        [JsonProperty("locked_fields")]
+        public string[] LockedFields { get; set; }
     }
 
     public enum Currency { Usd };
