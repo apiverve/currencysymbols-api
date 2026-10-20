@@ -2,8 +2,9 @@ openapi: 3.0.4
 info:
   title: Currency Symbols
   description: >-
-    Currency Symbols is a simple tool for getting currency symbols. It returns
-    the currency symbol, name, and more of a currency.
+    Currency Symbols matches ISO currency codes or country names to the
+    countries that use them. Paid plans add the currency symbol, full currency
+    name, ISO numeric code, and decimal precision.
   termsOfService: https://apiverve.com/terms/
   contact:
     name: APIVerve Support
@@ -18,7 +19,7 @@ servers:
 paths:
   /v1/currencysymbols:
     get:
-      summary: Get Currency Symbol
+      summary: Currency Symbols
       description: Get the currency symbol and name of a currency
       operationId: currencysymbols
       parameters:

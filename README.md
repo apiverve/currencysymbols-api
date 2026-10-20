@@ -1,13 +1,13 @@
-# [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+# [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Currency Symbols is a simple tool for getting currency symbols. It returns the currency symbol, name, and more of a currency.
+Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, and decimal precision.
 
 The Currency Symbols API provides a simple, reliable way to integrate currency symbols functionality into your applications. Built for developers who need production-ready currency symbols capabilities without the complexity of building from scratch.
 
-**[View API Details →](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)**
+**[View API Details →](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 [![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
 [![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
 
@@ -161,7 +161,7 @@ go get github.com/apiverve/currencysymbols-api/go
 
 ## Documentation
 
-- 🏠 **API Home:** [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home:** [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 📚 **API Reference:** [docs.apiverve.com/ref/currencysymbols](https://docs.apiverve.com/ref/currencysymbols)
 - 📖 **OpenAPI Spec:** [openapi.yaml](./openapi.yaml)
 - 💡 **Examples:** [examples/](./examples/)
@@ -374,7 +374,7 @@ A real response from the Currency Symbols API:
 
 ## Support & Community
 
-- 🏠 **API Home**: [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;readme)
+- 🏠 **API Home**: [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 - 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
 - 🐛 **Issues**: [GitHub Issues](../../issues)
 - 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
