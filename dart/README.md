@@ -1,11 +1,11 @@
 # Currency Symbols API - Dart/Flutter Client
 
-Currency Symbols is a simple tool for getting currency symbols. It returns the currency symbol, name, and more of a currency.
+Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, and decimal precision.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_currencysymbols.svg)](https://pub.dev/packages/apiverve_currencysymbols)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_currencysymbols: ^1.1.14
+  apiverve_currencysymbols: ^1.2.3
 ```
 
 Then run:
@@ -213,12 +213,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/currencysymbols](https://docs.apiverve.com/ref/currencysymbols?utm_source=dart&utm_medium=readme)
+- **API Home:** [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/currencysymbols](https://docs.apiverve.com/ref/currencysymbols?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -226,4 +226,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)

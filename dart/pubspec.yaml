@@ -1,7 +1,7 @@
 name: apiverve_currencysymbols
-description: Currency Symbols is a simple tool for getting currency symbols. It returns the currency symbol, name, and more of a currency.
-version: 1.1.14
-homepage: https://apiverve.com/marketplace/currencysymbols?utm_source=dart&utm_medium=homepage
+description: "Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, and decimal precision."
+version: 1.2.3
+homepage: https://apiverve.com/marketplace/currencysymbols?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/currencysymbols-api/tree/main/dart
 
 environment:
