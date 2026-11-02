@@ -57,15 +57,18 @@ class PremiumInfo {
 
 class CurrencysymbolsData {
   List<CurrencysymbolsDataCountriesfoundItem>? countriesFound;
+  String? ratesUpdated;
   String? currency;
 
   CurrencysymbolsData({
     this.countriesFound,
+    this.ratesUpdated,
     this.currency,
   });
 
   factory CurrencysymbolsData.fromJson(Map<String, dynamic> json) => CurrencysymbolsData(
       countriesFound: (json['countriesFound'] as List?)?.map((e) => CurrencysymbolsDataCountriesfoundItem.fromJson(e)).toList(),
+      ratesUpdated: json['ratesUpdated'],
       currency: json['currency'],
     );
 }
@@ -77,6 +80,9 @@ class CurrencysymbolsDataCountriesfoundItem {
   String? currencyNumber;
   String? currencyMnrUnts;
   String? currencySymbol;
+  num? exchangeRate;
+  num? usdValue;
+  num? change1d;
 
   CurrencysymbolsDataCountriesfoundItem({
     this.countryName,
@@ -85,6 +91,9 @@ class CurrencysymbolsDataCountriesfoundItem {
     this.currencyNumber,
     this.currencyMnrUnts,
     this.currencySymbol,
+    this.exchangeRate,
+    this.usdValue,
+    this.change1d,
   });
 
   factory CurrencysymbolsDataCountriesfoundItem.fromJson(Map<String, dynamic> json) => CurrencysymbolsDataCountriesfoundItem(
@@ -94,6 +103,9 @@ class CurrencysymbolsDataCountriesfoundItem {
       currencyNumber: json['currency_number'],
       currencyMnrUnts: json['currency_mnr_unts'],
       currencySymbol: json['currency_symbol'],
+      exchangeRate: json['exchangeRate'],
+      usdValue: json['usdValue'],
+      change1d: json['change1d'],
     );
 }
 
