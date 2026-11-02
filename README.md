@@ -1,6 +1,6 @@
 # [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, and decimal precision.
+Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency&#x27;s live rate and value against the US dollar.
 
 The Currency Symbols API provides a simple, reliable way to integrate currency symbols functionality into your applications. Built for developers who need production-ready currency symbols capabilities without the complexity of building from scratch.
 
@@ -218,7 +218,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "BONAIRE, SINT EUSTATIUS AND SABA",
@@ -226,7 +229,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "BRITISH INDIAN OCEAN TERRITORY (THE)",
@@ -234,7 +240,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "ECUADOR",
@@ -242,7 +251,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "EL SALVADOR",
@@ -250,7 +262,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "GUAM",
@@ -258,7 +273,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "HAITI",
@@ -266,7 +284,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "MARSHALL ISLANDS (THE)",
@@ -274,7 +295,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "MICRONESIA (FEDERATED STATES OF)",
@@ -282,7 +306,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "NORTHERN MARIANA ISLANDS (THE)",
@@ -290,7 +317,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "PALAU",
@@ -298,7 +328,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "PANAMA",
@@ -306,7 +339,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "PUERTO RICO",
@@ -314,7 +350,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "TIMOR-LESTE",
@@ -322,7 +361,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "TURKS AND CAICOS ISLANDS (THE)",
@@ -330,7 +372,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "UNITED STATES MINOR OUTLYING ISLANDS (THE)",
@@ -338,7 +383,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "UNITED STATES OF AMERICA (THE)",
@@ -346,7 +394,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "VIRGIN ISLANDS (BRITISH)",
@@ -354,7 +405,10 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "VIRGIN ISLANDS (U.S.)",
@@ -362,9 +416,13 @@ A real response from the Currency Symbols API:
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       }
     ],
+    "ratesUpdated": "2026-10-27T17:41:09.810Z",
     "currency": "USD"
   }
 }
