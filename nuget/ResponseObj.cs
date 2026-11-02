@@ -35,6 +35,9 @@ namespace APIVerve.API.CurrencySymbols
         [JsonProperty("countriesFound")]
         public CountriesFound[] CountriesFound { get; set; }
 
+        [JsonProperty("ratesUpdated")]
+        public DateTimeOffset? RatesUpdated { get; set; }
+
         [JsonProperty("currency")]
         public Currency? Currency { get; set; }
     }
@@ -58,6 +61,15 @@ namespace APIVerve.API.CurrencySymbols
 
         [JsonProperty("currency_symbol")]
         public CurrencySymbol? CurrencySymbol { get; set; }
+
+        [JsonProperty("exchangeRate")]
+        public long? ExchangeRate { get; set; }
+
+        [JsonProperty("usdValue")]
+        public long? UsdValue { get; set; }
+
+        [JsonProperty("change1d")]
+        public long? Change1D { get; set; }
     }
 
     public partial class Premium
