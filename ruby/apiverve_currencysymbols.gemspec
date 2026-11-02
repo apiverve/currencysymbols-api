@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "apiverve_currencysymbols"
-  spec.version       = "1.2.3"
+  spec.version       = "1.2.4"
   spec.authors       = ["APIVerve"]
   spec.email         = ["hello@apiverve.com"]
 
   spec.summary       = "Currency Symbols API - Ruby Client"
-  spec.description   = "Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, and decimal precision."
+  spec.description   = "Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency's live rate and value against the US dollar."
   spec.homepage      = "https://apiverve.com/marketplace/currencysymbols?utm_source=ruby&utm_medium=referral&utm_content=homepage"
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
