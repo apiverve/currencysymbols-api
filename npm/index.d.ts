@@ -26,6 +26,7 @@ declare module '@apiverve/currencysymbols' {
 
   interface CurrencySymbolsData {
       countriesFound: CountriesFound[];
+      ratesUpdated:   Date | null;
       currency:       Currency | null;
   }
   
@@ -36,6 +37,9 @@ declare module '@apiverve/currencysymbols' {
       currencyNumber:  null | string;
       currencyMnrUnts: null | string;
       currencySymbol:  CurrencySymbol | null;
+      exchangeRate:    number | null;
+      usdValue:        number | null;
+      change1D:        number | null;
   }
   
   enum Currency {

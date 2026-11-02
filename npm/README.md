@@ -1,6 +1,6 @@
 # Currency Symbols API
 
-Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, and decimal precision.
+Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency's live rate and value against the US dollar.
 
 [![npm version](https://img.shields.io/npm/v/@apiverve/currencysymbols.svg)](https://www.npmjs.com/package/@apiverve/currencysymbols)
 
@@ -126,7 +126,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "BONAIRE, SINT EUSTATIUS AND SABA",
@@ -134,7 +137,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "BRITISH INDIAN OCEAN TERRITORY (THE)",
@@ -142,7 +148,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "ECUADOR",
@@ -150,7 +159,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "EL SALVADOR",
@@ -158,7 +170,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "GUAM",
@@ -166,7 +181,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "HAITI",
@@ -174,7 +192,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "MARSHALL ISLANDS (THE)",
@@ -182,7 +203,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "MICRONESIA (FEDERATED STATES OF)",
@@ -190,7 +214,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "NORTHERN MARIANA ISLANDS (THE)",
@@ -198,7 +225,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "PALAU",
@@ -206,7 +236,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "PANAMA",
@@ -214,7 +247,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "PUERTO RICO",
@@ -222,7 +258,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "TIMOR-LESTE",
@@ -230,7 +269,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "TURKS AND CAICOS ISLANDS (THE)",
@@ -238,7 +280,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "UNITED STATES MINOR OUTLYING ISLANDS (THE)",
@@ -246,7 +291,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "UNITED STATES OF AMERICA (THE)",
@@ -254,7 +302,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "VIRGIN ISLANDS (BRITISH)",
@@ -262,7 +313,10 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       },
       {
         "country_name": "VIRGIN ISLANDS (U.S.)",
@@ -270,9 +324,13 @@ async function makeRequest() {
         "currency_iso_code": "USD",
         "currency_number": "840",
         "currency_mnr_unts": "2",
-        "currency_symbol": "$"
+        "currency_symbol": "$",
+        "exchangeRate": 1,
+        "usdValue": 1,
+        "change1d": 0
       }
     ],
+    "ratesUpdated": "2026-10-27T17:41:09.810Z",
     "currency": "USD"
   }
 }
