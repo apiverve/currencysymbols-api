@@ -1,7 +1,7 @@
 {
     "name": "apiverve/currencysymbols",
     "description": "Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency's live rate and value against the US dollar.",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "type": "library",
     "license": "MIT",
     "authors": [
