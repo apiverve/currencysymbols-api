@@ -1,6 +1,6 @@
 # Currency Symbols API - Dart/Flutter Client
 
-Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency's live rate and value against the US dollar.
+Currency Symbols is a currency code and currency symbol API: look up a country to get its ISO 4217 currency code, or a currency code to list every country that uses it. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency's live rate and value against the US dollar.
 
 [![pub package](https://img.shields.io/pub/v/apiverve_currencysymbols.svg)](https://pub.dev/packages/apiverve_currencysymbols)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_currencysymbols: ^1.2.5
+  apiverve_currencysymbols: ^1.2.6
 ```
 
 Then run:
