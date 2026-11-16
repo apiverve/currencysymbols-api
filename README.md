@@ -1,6 +1,6 @@
 # [Currency Symbols API](https://apiverve.com/marketplace/currencysymbols?utm_source&#x3D;github&amp;utm_medium&#x3D;referral&amp;utm_content&#x3D;readme)
 
-Currency Symbols matches ISO currency codes or country names to the countries that use them. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency&#x27;s live rate and value against the US dollar.
+Currency Symbols is a currency code and currency symbol API: look up a country to get its ISO 4217 currency code, or a currency code to list every country that uses it. Paid plans add the currency symbol, full currency name, ISO numeric code, decimal precision, and the currency&#x27;s live rate and value against the US dollar.
 
 The Currency Symbols API provides a simple, reliable way to integrate currency symbols functionality into your applications. Built for developers who need production-ready currency symbols capabilities without the complexity of building from scratch.
 
